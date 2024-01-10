@@ -1,0 +1,19 @@
+name: Testing Workflow
+
+on:
+  push:
+    branches:
+      - feature/*
+      - hotfix/*
+      - bugfix/*
+      - fix/*
+      - main
+jobs:
+  deploy:
+    name: Testing Workflow
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step Name
+        run: |
+          echo "${{env.VAR_NAME}} 🚀🚀🚀"
+          echo "${{variable.VAR_NAME}} 🚀🚀🚀"
