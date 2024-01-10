@@ -16,4 +16,4 @@ jobs:
       - name: Step Name
         run: |
           echo "${{env.VAR_NAME}} 🚀🚀🚀"
-          echo "${{variable.VAR_NAME}} 🚀🚀🚀"
+          echo "${{vars.VAR_NAME}} 🚀🚀🚀"
